@@ -10,7 +10,7 @@ namespace WebServiceTerceroOnline
     public partial class Index : System.Web.UI.Page
     {
         // Web service tomado de: http://www.dneonline.com/calculator.asmx
-        // 2. Instancia para acceso global
+        // 2. Instancia para acceso global.
         WebServiceOnline.CalculatorSoapClient ws = new WebServiceOnline.CalculatorSoapClient();
         protected void Page_Load(object sender, EventArgs e)
         {
